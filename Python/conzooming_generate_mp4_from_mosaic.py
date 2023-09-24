@@ -1,7 +1,7 @@
 # Project: conzooming
-# Author: CompilerStuck
+# Author: Marcel Mauel
 # Contributor: Daniil Vyazalov
-# View GitHub-Repository: https://github.com/CompilerStuck/conzooming
+# View GitHub-Repository: https://github.com/marcelmauel/conzooming
 # Instagram: conzooming.github.io
 
 """
