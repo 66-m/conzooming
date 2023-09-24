@@ -1,12 +1,12 @@
 # conzooming
 
-*conzooming enables mosaic like collages to be generated from many images.*
+*conzooming enables mosaic-like collages to be generated from many images.*
 
 
 ## **Getting Started:**
 
 ### *Download Python:*
-Download the latest Version for you System https://www.python.org/downloads/
+Download the latest version for your system https://www.python.org/downloads/
 
 ##### Check the "Add python to environment variables" Box during the installation.
 
@@ -19,7 +19,7 @@ Paste following separately into your commandline, and execute:
 # **Executing the mosaic generator:**
 
 Open a commandline in your folder, containing the python script.
-To execute the script write:
+To execute the script type:
 
     python conzooming_generate_mosaic.py
 
@@ -47,9 +47,9 @@ optional arguments:
 
 ### Examples could look like this:
 
-    python conzooming_generate.py --img "myimage.jpg" --dir "C:\Users\Max\Desktop\images\" 
-    python conzooming_generate.py --img "myimage.jpg" --dir "C:\Users\Max\Desktop\images\"  --size 3 --scale 100 --crop False --out "C:\Users\Max\Desktop\images_2\"
-    python conzooming_generate.py --img "myimage.jpg" --dir "C:\Users\Max\Desktop\images\" --out "C:\Users\Max\Desktop\images_2\"
+    python conzooming_generate_mosaic.py --img "myimage.jpg" --dir "C:\Users\Max\Desktop\images\" 
+    python conzooming_generate_mosaic.py --img "myimage.jpg" --dir "C:\Users\Max\Desktop\images\"  --size 3 --scale 100 --crop False --out "C:\Users\Max\Desktop\images_2\"
+    python conzooming_generate_mosaic.py --img "myimage.jpg" --dir "C:\Users\Max\Desktop\images\" --out "C:\Users\Max\Desktop\images_2\"
 
 
 # **MP4 generator:**
@@ -58,19 +58,19 @@ optional arguments:
 ### *Install required Python-Libraries:*
 
 Be sure you that you already installed all of the above.
-Paste following separately into your commandline, and execute:
+Paste the following separately into your command line, and execute:
 
     python -m pip install -U imageio
     python -m pip install -U opencv-python
     
 ### **Executing the MP4-Generator:**
 
-Open a commandline in your folder, containing the python script.
+Open a command line in your folder, containing the python script.
 To execute the script write:
 
     python conzooming_generate_mp4_from_mosaic.py
 
-You'll see, that you have to give some additional arguments for the program to run properly.
+You'll see that you need to provide some additional arguments for the program to run properly
 You can check these via:
 
     python conzooming_generate_mp4_from_mosaic.py --help
@@ -88,7 +88,7 @@ optional arguments:
     -h, --help           show this help message and exit
     --fps       FPS      GIF Framerate. Default is 24
     --ztime     ZTIME    Length of zoom in seconds. Default is 5
-    --zoom      ZOOM     Zoom stregth. Aquivalent to scale. Default is 20
+    --zoom      ZOOM     Zoom stregth. equivalent to scale. Default is 20
     --prev      PREV     Add preview before and after. Default is 0 seconds
     --zrev      ZREV     Determines if zooming should be reversed. Default is False
     --out       OUT      Output directory for the final image. Default is the directory from the image (If your Path contains spaces, put it inside quotes: "../my path/foo/")
@@ -108,17 +108,17 @@ optional arguments:
 
 
 
-# **Insta Pic Downloader:**
+# **Instagram Picture Downloader:**
 
 ### **Requirements:** 
 ### *Install required Python-Libraries:*
 
-Be sure you that you already installed all of the above.
-Paste following separately into your commandline, and execute:
+Ensure you have already installed all of the above.
+Paste following separately into your command line, and execute:
 
     python -m pip install -U instaloader
     
-Open a commandline in your folder, containing the python script.
+Open a command line in your folder, containing the python script.
 To execute the script write:
 
     python conzooming_instaloader.py
@@ -139,10 +139,10 @@ required arguments:
 optional arguments:
 
     -h, --help           show this help message and exit
-    --max MAX    (Integer) Count of images, that shuld be downloaded. Default is 200
+    --max MAX    (Integer) Count of images, that should be downloaded. Default is 200
 
 ### Examples could look like this:
 
     python conzooming_instaloader.py --user Hans --max 10 --dir "C:\users\peter\Desktop"
 
-conzooming © 2020 - CompilerStuck, Daniil Vyazalov
+conzooming © 2020 - Marcel Mauel, Daniil Vyazalov
