@@ -144,5 +144,3 @@ optional arguments:
 ### Examples could look like this:
 
     python conzooming_instaloader.py --user Hans --max 10 --dir "C:\users\peter\Desktop"
-
-conzooming © 2020 - Marcel Mauel, Daniil Vyazalov
