@@ -1,9 +1,3 @@
-# Project: conzooming
-# Author: Marcel Mauel
-# Contributor: Daniil Vyazalov
-# View GitHub-Repository: https://github.com/marcelmauel/conzooming
-# Instagram: conzooming.github.io
-
 """
 IDEA:
 

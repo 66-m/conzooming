@@ -1,9 +1,3 @@
-#Project: conzooming
-#Author: Marcel Mauel
-#Contributor: Daniil Vyazalov
-#View GitHub-Repository: https://github.com/marcelmauel/conzooming
-#Instagram: conzooming.github.io
-
 import numpy as np
 import argparse
 import os
